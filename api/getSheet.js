@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default function handler(req, res) {
   // Define the destination directory where the file will be saved
-  const destinationDir = path.join("C:", "Users", "shaik", "Desktop", "Test-Experiment", "Excel-API", "Downloaded");
+  const destinationDir = path.join("Downloaded");
 
   // Ensure the directory exists
   if (!fs.existsSync(destinationDir)) {
